@@ -15,28 +15,6 @@ async function fetchData() {
 		sampleData.forEach(task => {
 			createElementTask(task)
 		})
-
-		// let newTableRow = document.createElement("tr");
-
-		// let newDataCell = document.createElement("td");
-		// newDataCell.textContent = task;
-
-		// const completeBtn = document.createElement('button')
-		// completeBtn.classList.add('complete')
-		// completeBtn.innerText = 'Complete';
-
-		// const deleteBtn = document.createElement('button')
-		// deleteBtn.classList.add('delete')
-		// deleteBtn.innerText = 'Delete';
-
-		// lists.appendChild(newTableRow);
-		// newTableRow.appendChild(newDataCell);
-		// newTableRow.appendChild(completeBtn);
-		// newTableRow.appendChild(deleteBtn);
-		// deleteBtn.addEventListener('click', (e) => {
-		// 	lists.removeChild(newTableRow);
-		// })
-
 	}
 
 
