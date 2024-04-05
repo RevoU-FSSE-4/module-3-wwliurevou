@@ -14,7 +14,7 @@ async function fetchData():Promise<void> {
 		//const request = new Request("https://module3-api-is2m.onrender.com/random-todos");
 		const response = await fetch("https://module3-api-is2m.onrender.com/random-todos");
 		const sampleData = await response.json();
-		sampleData.forEach(task:string => {
+		sampleData.forEach((task:string) => {
 			createElementTask(task)
 		})
 	}
