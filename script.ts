@@ -87,7 +87,7 @@ function addTask(content: string):void {
 		deleteBtn.classList.add('delete')
 		deleteBtn.innerText = 'Delete';
 		deleteBtn.addEventListener('click', (e) => {
-		lists.removeChild(newTableRow);
+		lists?.removeChild(newTableRow);
 })
 		lists.appendChild(newTableRow);
 		newTableRow.appendChild(newDataCell);
